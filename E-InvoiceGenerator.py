@@ -67,7 +67,7 @@ def printinvoice():
     pdf.setFont("Courier-Bold",11)
     pdfgen.footer(pdf,Products)
     pdf.save()
-    webbrowser.open("C:\\InvoiceGenerator\\"+str(int(head.InvoiceNumber))+".pdf")
+    #webbrowser.open("C:\\InvoiceGenerator\\"+str(int(head.InvoiceNumber))+".pdf").  #no need to open pdf
 
 
 
